@@ -1,0 +1,303 @@
+*{
+  font-family:verdana;
+}
+/*nav bar styling*/
+nav{
+    background: #2e398e;
+    display: flex;
+    padding: 2% 2%;
+    justify-content: space-between;
+    align-items: center;  
+}
+nav img{
+    width:100px; 
+    height:100px;
+}
+.nav-links{
+   flex: 1;
+    text-align: right;   
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #000000;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 5px 0 20px;
+    font-size: 14px;
+    color: #fff;
+}
+nav .fa-solid{
+    display: none;
+}
+
+/*home page styling*/
+h3{
+  text-decoration:underline;
+}
+section{
+  text-align:center;
+}
+.aboutproj{
+  border: 2px solid#0063b1;
+  padding: 20px;
+  text-align: left;
+  background-color: white;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.projdesc{
+  margin:75px 50px;
+}
+#pcg{
+  background-color: #babbc4;
+  text-align:center;
+  padding-top:10px;
+}
+.aboutclient{
+  text-align:center;
+  font-size:18px;
+}
+
+#virginia{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:300px;
+  width:450px;
+}
+/*team page styling*/
+h1{
+    font-size: 35px;
+    font-weight: 500;
+}
+p{
+    color: #000000;
+    font-size: 14px;
+    fit-weight: 200px;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+   
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;  
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px;
+}
+.values-col:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.events:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.2); 
+}
+.cal-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2); 
+}
+.cal2-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2); 
+}
+@media(max-width: 1250px){
+    .row{
+        flex-direction: column;
+    }
+}
+.container {
+  margin: 20px 40px;
+  color: black;
+}
+
+.heading {
+  text-align: center;
+  font-size: 60px;
+  color: black;
+}
+
+
+.profiles {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0px;
+}
+
+.profile {
+  flex-basis: 300px;
+  margin:0px 20px;
+}
+
+.profile .profile-img{
+  height: 350px;
+  width: 250px;
+}
+
+.user-name {
+  margin-top: 30px;
+  font-size: 35px;
+}
+
+.profile h5{
+  text-align:center;
+  font-size: 18px;
+  Font-weight: 250;
+  letter-spacing: 3px;
+  color: #000000;
+}
+
+.profile p{
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+
+/*southside css*/
+#southsideBudget{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:300px;
+  width:450px;
+}
+#pupilSouthside{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:300px;
+  width:450px;
+}
+#breakdownSouthside{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:300px;
+  width:600px;
+}
+
+/*hampton roads css*/
+#hamptonBudget{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:300px;
+  width:450px;
+}
+#hamptonPupil{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:300px;
+  width:450px;
+}
+
+/*southwest css*/
+#swAndValleyEnroll{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:300px;
+  width:450px;
+}
+#swbar{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:300px;
+  width:450px;
+}
+
+/*eastern css*/
+#easternBudget{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:300px;
+  width:450px;
+}
+
+#easternPPS{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:300px;
+  width:450px;
+}
+/*northern css*/
+.northern{
+  width:33.33%;
+  float:left;
+  text-align: center;
+  padding: 0px 50px;
+  box-sizing: border-box;
+}
+#sources{
+  text-align:center;
+}
+
+/*central css*/
+#central1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:300px;
+  width:450px;
+}
+/*valley css*/
+.valley{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:300px;
+  width:450px;
+}
+/*richmond css*/
+
+.richmond{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:300px;
+  width:450px;
+}
+
+/*report css*/
+#report{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+}
